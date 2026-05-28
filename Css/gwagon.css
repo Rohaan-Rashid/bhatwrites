@@ -38,14 +38,14 @@ transition-duration: 1s;
     padding:0;
 }
 .logo{
-    background-image: url(images/logo.png);
+    background-image: url('../images/logo.png');
     
     height:55px;
     width:300px;
     background-size: cover;
 }
 .foo-logo{
-    background-image: url(images/logo.png);
+    background-image: url('../images/logo.png');
     background-size: cover;
     height:55px;
     width:300px;
@@ -191,7 +191,7 @@ background:#444;
 
 body{
     font-family: 'Poppins', sans-serif;
-   background-image: url(images/bki2.png);         
+   background-image: url('../images/bki2.png');         
     color: #222;
  
 line-height: 1.8;
