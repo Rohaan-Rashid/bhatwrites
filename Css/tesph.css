@@ -1,0 +1,257 @@
+
+*{
+    padding:0px;
+    margin:0px;
+    
+}
+#navbar{display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+  backdrop-filter: blur(60px);
+    gap:20px;
+    padding:20px;
+    font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+       
+            
+}
+.footerlogo{
+    height:55px;
+    width:300px;
+}
+.navlogo{
+    height:55px;
+    width:500px;
+    display: flex;
+    padding:0;
+}
+.logo{
+    background-image: url(/images/logo.png);
+    
+    height:55px;
+    width:300px;
+    background-size: cover;
+}
+.foo-logo{
+    background-image: url(/images/logo.png);
+    background-size: cover;
+    height:55px;
+    width:300px;
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+background:#444;
+}
+#container,
+#container2,
+#container3{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+    padding: 20px 20px 20px 20px;
+     
+        
+}
+
+
+#box1{
+    width:100%;
+    max-width:350px;
+    height:360px;
+    background-size:cover;
+    background-position:center;
+    border-radius:12px;
+backdrop-filter: blur(20px);
+    border: 2px black solid;
+       
+     box-shadow: 0 0 30px rgba(0,0,0,0.9);
+}
+#box1{
+   padding:15px 10px 15px 10px ;
+
+
+}
+#b2img{
+    border-radius: 10px;
+}
+#container a,
+#container2 a,
+#container3 a{
+    color:green;
+
+}
+#b1img{
+    border-radius: 10px;
+}
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* backdrop-filter: blur(200px); */
+    background-color:grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover effect */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* FOOTER */
+.footerrcontainer{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+ 
+    padding:40px 20px;
+    background-color:black;
+}
+
+.footerlinks ,
+.footercontact ,
+.footerweb ,
+.footercateogories{
+    color:white;
+    font-size:16px;
+    text-decoration: none;
+
+}
+.footerlinks a,
+ .footercateogories a {
+    text-decoration: none;
+    color:white;
+}
+.fh1, .fh2, .fh3, .fh4{
+    color:orange;
+}
+.ppp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ppp a{
+    text-decoration: none;
+}
+
+/*phone*/
+@media (max-width:769px) {
+
+    
+    #navbar{
+            padding:10px;
+            display: flex;
+            align-items: center;
+    }
+    .logo{
+        height:40px;
+        width:140px;
+    } 
+    
+    
+    .navlogo{
+        height:50px;
+        width:150px;
+    }
+  .footercontainer{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+ 
+ 
+}
+  #navbar{
+   
+    gap:5px;
+    padding:5px;
+      
+}
+}
+
+/* TABLET */
+@media (min-width:769px) and (max-width:1024px){
+
+    #box1,#box2,#box3,#box4,#box5,#box6,
+    #box11,#box22,#box33,#box44,#box55,#box66,
+    #box111,#box222,#box333,#box444,#box555,#box666{
+        max-width:45%;
+        padding:10px;
+       
+    }
+    .footercontainer{
+    display:flex;
+    flex-direction: row;
+    align-items: start;
+}
+ .navlogo{
+        height:50px;
+        width:430px;
+    }
+ 
+}
+/*#box11:hover{
+    transform: scale(1.1);
+        transition-delay: .1s;
+transition-duration: 1s;
+}
+#box22:hover{
+    transform: scale(1.1);
+        transition-delay: .1s;
+transition-duration: 1s;
+}
+#box33:hover{
+    transform: scale(1.1);
+        transition-delay: .1s;
+transition-duration: 1s;
+}
+#box1:hover{
+    transform: scale(1.1);
+        transition-delay: .1s;
+transition-duration: 1s;
+}
+#box2:hover{
+    transform: scale(1.1);
+        transition-delay: .1s;
+transition-duration: 1s;
+}
+#box3:hover{
+    transform: scale(1.1);
+        transition-delay: .1s;
+transition-duration: 1s;
+}*/
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.9);
+}

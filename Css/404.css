@@ -1,0 +1,245 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.container{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .footerlogo{
+    height:55px;
+    width:300px;
+}
+.navlogo{
+    height:55px;
+    width:500px;
+    display: flex;
+    padding:0;
+}
+.logo{
+    background-image: url(/images/logo.png);
+    
+    height:55px;
+    width:300px;
+    background-size: cover;
+}
+.foo-logo{
+    background-image: url(/images/logo.png);
+    background-size: cover;
+    height:55px;
+    width:300px;
+}
+.container2{
+background:white;
+padding:50px;
+border-radius:15px;
+box-shadow:0 4px 20px rgba(0,0,0,0.1);
+width:400px;
+font-family: Arial, Helvetica, sans-serif;
+
+} 
+
+
+
+p{
+font-size:22px;
+color:#555;
+} 
+
+#pagenotfound{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:black;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+
+a:hover{
+background:#444;
+}
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+ background-color:grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover effect */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#navbar,
+.footercontainer{
+    font-family: 'Poppins', sans-serif;
+
+    color: #222;
+    backdrop-filter: blur(1.5);
+
+
+}
+/* body{
+    background-image: url(bki2.png);
+} */
+.bhatinsights{
+    animation: insightsanimate 4s ease-in 3s infinite normal;
+}
+@keyframes insightsanimate{
+    from{
+        transform:translate(0);
+    }
+    to{
+        transform:translate(100%);
+
+    }
+}  
+/*phone*/
+@media (max-width:769px) {
+
+ 
+    #navbar{
+            padding:10px;
+    }
+    .logo{
+        height:40px;
+        width:140px;
+    } 
+    
+    .bhatinsights{
+        font-size:10px;
+        animation:none;
+    }
+    .navlogo{
+        height:50px;
+        width:150px;
+    }
+  .footercontainer{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+ 
+
+}
+
+}
+
+/* TABLET */
+@media (min-width:769px) and (max-width:1024px){
+
+   #box1,#box2,#box3,
+    #box11,#box22,#box33,
+    #box111,#box222,#box333{
+        max-width:45%;
+      
+    }
+       #container,
+    #container2,
+    #container3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  .footercontainer{
+    display:flex;
+    flex-direction: row;
+    align-items: start;
+}
+}#logo{
+    align-self: flex-start;
+}
+#navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+flex-wrap: wrap; 
+  
+backdrop-filter: blur(90px);
+    padding:20px;
+}
+.footerlogo{
+    height:55px;
+    width:300px;
+}
+.navlogo{
+    height:55px;
+    width:500px;
+    display: flex;
+    padding:0;
+}
+.logo{
+    background-image: url(logo.png);
+    
+    height:55px;
+    width:300px;
+    background-size: cover;
+}
+.foo-logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height:55px;
+    width:300px;
+}
+#navbar a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+      flex-direction: row;
+      display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+/* FOOTER */
+.footerrcontainer{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+ 
+    padding:40px 20px;
+    background-color:black;
+}
+
+.footerlinks ,
+.footercontact ,
+.footerweb ,
+.footercateogories{
+    color:white;
+    font-size:16px;
+    text-decoration: none;
+
+}
+.footerlinks a,
+ .footercateogories a {
+    text-decoration: none;
+    color:white;
+}
+.fh1, .fh2, .fh3, .fh4{
+    color:orange;
+}

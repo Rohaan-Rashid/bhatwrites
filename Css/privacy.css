@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* NAVBAR */
+#navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+  
+    gap:20px;
+    padding:20px;
+}
+.footerlogo{
+    height:55px;
+    width:300px;
+}
+.navlogo{
+    height:55px;
+    width:500px;
+    display: flex;
+    padding:0;
+}
+.logo{
+    background-image: url(/images/logo.png);
+    
+    height:55px;
+    width:300px;
+    background-size: cover;
+}
+.foo-logo{
+    background-image: url(/images/logo.png);
+    background-size: cover;
+    height:55px;
+    width:300px;
+}
+#navbar a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+      flex-direction: row;
+      display:flex;
+  justify-content: space-between;
+}
+a:hover{
+background:#444;
+}
+
+
+/* FOOTER */
+.footerrcontainer{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+ 
+    padding:40px 20px;
+    background-color:black;
+}
+
+.footerlinks ,
+.footercontact ,
+.footerweb ,
+.footercateogories{
+    color:white;
+    font-size:16px;
+    text-decoration: none;
+
+}
+.footerlinks a,
+ .footercateogories a {
+    text-decoration: none;
+    color:white;
+}
+.fh1, .fh2, .fh3, .fh4{
+    color:orange;
+}
+
+
+/*phone*/
+@media (max-width:769px) {
+
+  
+    #navbar{
+            padding:10px;
+    }
+    .logo{
+        height:40px;
+        width:140px;
+    } 
+    
+    #navbar{
+
+    gap:5px;
+    padding:5px;
+   
+}
+    .navlogo{
+        height:50px;
+        width:150px;
+    }
+  .footercontainer{
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+ 
+
+}}
+
+/* TABLET */
+@media (min-width:769px) and (max-width:1024px){
+
+    #box1,#box2,#box3,
+    #box11,#box22,#box33,
+    #box111,#box222,#box333{
+        max-width:45%;
+    }
+  .footercontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+}
+}
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+     background-color:grey;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Hover effect */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;}
