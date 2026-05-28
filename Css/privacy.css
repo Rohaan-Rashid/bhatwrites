@@ -23,14 +23,14 @@
     padding:0;
 }
 .logo{
-    background-image: url(/images/logo.png);
+    background-image: url(images/logo.png);
     
     height:55px;
     width:300px;
     background-size: cover;
 }
 .foo-logo{
-    background-image: url(/images/logo.png);
+    background-image: url(images/logo.png);
     background-size: cover;
     height:55px;
     width:300px;
